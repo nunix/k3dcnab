@@ -1,0 +1,8 @@
+From docker:19.03-rc-dind
+# required installs
+RUN apk add bash curl
+
+# k3d install
+RUN curl -s https://raw.githubusercontent.com/rancher/k3d/master/install.sh | bash
+
+ENTRYPOINT ["/bin/bash"]
