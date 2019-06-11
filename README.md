@@ -91,7 +91,7 @@ mixins:
 name: k3dcnab
 version: 0.7.0
 description: "A portable K3s cluster and K3d management tool"
-invocationImage: nunix/k3dcnab:1.0.0
+invocationImage: k3dcnab:1.0.0
 dockerfile: Dockerfilek3d
 ```
 
