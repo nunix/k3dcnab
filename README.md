@@ -75,7 +75,7 @@ Now that we have the base `Dockerfile`, let's see how we can leverage it with `p
 `porter` has several functions that will help create `CNAB bundles` in a very friendly and rapid way without the need to know the `CNAB spec` in details.
 The main configuration file is written in `yaml`, therefore the name `porter.yaml`.
 
-While I strongly suggest you to have a look on the [porter.sh] website to understand the whole concept and options, I will explain here the 3 main parts of the `porter.yaml` file:
+While I strongly suggest you to have a look on the [porter.sh](https://porter.sh/) website to understand the whole concept and options, I will explain here the 3 main parts of the `porter.yaml` file:
 
 ### 1. The header
 In this section, we will:
@@ -128,7 +128,7 @@ parameters:
 
 ### 3. The actions
 The final section is the `actions` that will be used when running the `porter` command.
-By default, the standard `CNAB actions` are: `install`, `upgrade` and `uninstall`. However, there's nothing blocking you from creating new ones (but this goes way beyond my knowledge and the purpose of this bundle).
+By default, the standard `CNAB actions` are: `install`, `upgrade` and `uninstall`.
 
 The different `actions` have the same *skeleton* which contains:
 - The name of the `action` always comes first and must be unique in the `porter.yaml` file
